@@ -1,7 +1,7 @@
 # ms17_010_scan
 ms17_010的批量扫描工具
 
-因为Fuzzbunch的运行环境是Python2.6，所以站在巨人的肩膀上改了一个Python2.6的支持批量扫描ms17_010工具。
+因为Fuzzbunch的运行环境是Python2.6，所以[站在巨人的肩膀][1]上改了一个Python2.6的支持批量扫描ms17_010工具。
 
 ## 用法 ##
 
@@ -45,3 +45,4 @@ ms17_010的批量扫描工具
     ms17010scan-h-n-amd64-1.exe -n 192.168.1.0/24
 
 
+  [1]: https://github.com/nixawk/labs/blob/master/MS17_010/smb_exploit.py
